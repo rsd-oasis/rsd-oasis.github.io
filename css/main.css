@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* CSS Document
+
+
+
+
+*/
+
+.hidden
+{
+	display: none;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+
+@font-face {
+	font-family: 'NotoSans';
+	src: url('./fonts/NotoSansSC-Light.otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSans';
+	src: url('./fonts/NotoSansSC-Regular.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSans';
+	src: url('./fonts/NotoSansSC-Medium.otf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSans';
+	src: url('./fonts/NotoSansSC-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* ------------------------------- */
+
+@font-face {
+	font-family: 'NotoSerif';
+	src: url('./fonts/NotoSerifSC-Light.otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSerif';
+	src: url('./fonts/NotoSerifSC-Regular.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSerif';
+	src: url('./fonts/NotoSerifSC-Medium.otf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSerif';
+	src: url('./fonts/NotoSerifSC-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+/*   ------------------------------------------------------   */
+
+
