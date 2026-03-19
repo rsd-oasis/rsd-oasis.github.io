@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* CSS Document
+*/
+
+
+
+/*   HERO    */
+
+
+#homeHeroCon
+{
+	margin-top: 10vh;
+	background-color: #C6C1BD;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.8'/%3E%3C/svg%3E");
+}
+
+#homeHeroCon img
+{
+	max-width: 100%;
+}
+
+
+
+#homeHeroIntroCon
+{
+	padding-top: 10vh;
+	padding-bottom: 15vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#homeHeroIntroCon h2
+{
+	width: 50vw;
+	font-family: 'Noto Serif SC', serif;
+	font-weight: 700;
+	font-size: 72px;
+	letter-spacing: 5px;
+	color: #C07037;
+}
+
+
+#homeIntroDesc
+{
+	width: 30vw;
+	padding-top: 7vh;
+}
+
+#homeIntroDesc p
+{
+	font-family: 'Noto Serif SC', serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	color: #483F38;
+}
+
+
+
+/*  homeEntries    */
+
+
+
+#homeEntries
+{
+	margin-top: 15vh;
+	margin-bottom: 30vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.homeEntriesCon
+{
+	margin-bottom: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+
+}
+
+
+.homeEntriesCon a
+{
+	width: 40vw;
+}
+
+.homeEntriesCon div
+{
+	width: 40vw;
+}
+
+.homeEntriesCon h3
+{
+	font-family: 'Noto Serif SC', serif;
+	font-size: 32px;
+	padding-bottom: 15px;
+}
+
+.homeEntriesCon p
+{
+	font-family: 'Noto Serif SC', serif;
+	font-weight: 300;
+
+}
+
+
+/* ------- */
+
+#homeEntriesLib
+{
+	align-items: last baseline;
+}
+
+#homeEntriesLib a, #homeEntriesPost a
+{
+	text-align: right;
+}
+
+#homeEntriesLib div *,  #homeEntriesPost div *
+{
+	padding-left: 20px;
+	text-align: left;
+	
+}
+
+
+
+/* ------- */
+
+
+#homeEntriesChar
+{
+	align-items: last baseline;
+}
+
+#homeEntriesChar div *
+{
+	padding-right: 20px;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------- media queries ------------ */
+
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+
+
+	#homeHeroIntroCon
+	{
+		flex-direction: column;
+	}
+
+	#homeIntroDesc
+	{
+		width: 80vw;
+	}
+
+
+	.homeEntriesCon a
+	{
+		width: 30vw;
+	}
+
+	.homeEntriesCon div
+	{
+		width: 30vw;
+	}
+
+	.homeEntriesCon img
+	{
+		max-width: 75%;
+	}
+	
+	.homeEntriesCon h3
+	{
+		font-size: 28px;
+		padding-bottom: 12px;
+	}
+
+
+}

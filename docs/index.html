@@ -6,6 +6,7 @@
 		<title>OASIS</title>
 		<link href="../css/reset.css" rel="stylesheet" type="text/css" >
 		<link href="../css/main.css" rel="stylesheet" type="text/css">
+		<link href="../css/homepage.css" rel="stylesheet" type="text/css">
 		
 	</head>
 	<body>
@@ -13,19 +14,127 @@
 		<h1 class="hidden">OASIS主页</h1>
 		<div id="container">
 
-			<h2>OASIS主页</h2>
+			
 
-			<ul>
-				<li><a href="#">主页</a></li>
-				<li><a href="library/index.html">大图书馆</a></li>
-				<li><a href="profile/index.html">人物档案</a></li>
-				<li><a href="post/index.html">报刊亭</a></li>
-			</ul>
+			<header id="mainHeader">
+				<h2 class="hidden">标题栏</h2>
+
+				<section id="topHeader">
+					<h3 class="hidden">OASIS</h3>
+					<div id="topHeaderCon">
+						<p>"黑城"历5年</p>
+						<p>宜 摒除杂念</p>
+						<p>忌 贪妄</p>
+					</div>	
+				</section> <!--- close of topHeader   --->
+
+
+				<nav id="mainNav">
+					<h3 class="hidden">Main Navigation</h3>
+					<ul id="mainNavList">
+						<li><a href="#">主页</a></li>
+						<li><a href="library/index.html">大图书馆</a></li>
+						<li><a href="profile/index.html">人物档案</a></li>
+						<li><a href="post/index.html">报刊亭</a></li>
+					</ul>
+
+
+					<div id="mainNavLogo">
+						<img src="../images/icon-oasis-dark.png" alt="OASIS图标">
+					</div>
+					
+					
+					<ul id="mainNavNotes">
+						<li><a id="mainNavNotesSP">发现了华点</a></li>
+						<li><a href="#">关于</a></li>
+						<li><a href="#">进度</a></li>
+						<li><a href="#">特别页面</a></li>
+					</ul>
+				</nav>
+
+				<hr>
+
+			</header> <!--  close of mainHeader   -->
+
+
+
+			<section id="homeHeroCon">
+				<img src="../images/home-hero.jpg">
+				<div id="homeHeroIntroCon">
+					<h2>OASIS</h2>
+					<div id="homeIntroDesc">
+						<p>如此陌生的面孔，想必你也是一位旅人。</p>
+						<p>你在求索何物？将前往何方？不论如何，欢迎来到OASIS。这世界仍旧荒芜，但请在唯一的绿洲暂歇，</p>
+						<p>为了踏上更加未知的旅途。</p>
+					</div>
+					
+				</div>
+			</section>
+
+
+			<section id="homeEntries">
+				<h2 class="hidden">各大板块</h2>
+
+				<section id="homeEntriesLib" class="homeEntriesCon">
+					<a href="library/index.html"><img src="../images/home-covers-lib.jpg" alt="点击进入大图书馆"></a>
+					<div>
+						<a href="library/index.html"><h3>大图书馆</h3></a>
+						<p>记载和保存世界地理、历史、魔法等相关知识。</p>
+					</div>
+				</section>
+
+
+				<section id="homeEntriesChar" class="homeEntriesCon">
+					<div>
+						<a href="profile/index.html"><h3>人员档案</h3></a>
+						<p>按地区和组织分类记录的角色档案。</p>
+					</div>
+					<a href="profile/index.html"><img src="../images/home-covers-char.jpg" alt="点击进入人员档案"></a>
+				</section>
+
+
+				<section id="homeEntriesPost" class="homeEntriesCon">
+					<a href="post/index.html"><img src="../images/home-covers-post.jpg" alt="点击进入人报刊亭"></a>
+					<div>
+						<a href="post/index.html"><h3>旧报刊亭</h3></a>
+						<p>收录各类杂志和小道消息。</p>
+					</div>
+				</section>
+
+			</section>  <!--  close of homeEntries -->
 
 
 
 
+			<footer>
+				<h2 class="hidden">底部栏</h2>
 
+				<hr>
+
+				<section id="footerNavCon">
+					<div id="footerNavIcons">
+
+					</div>
+
+					<ul id="footerNavMain">
+						<li><a href="#">主页</a></li>
+						<li><a href="library/index.html">大图书馆</a></li>
+						<li><a href="profile/index.html">人物档案</a></li>
+						<li><a href="post/index.html">报刊亭</a></li>
+						<li><a href="#">关于</a></li>
+						<li><a href="#">进度</a></li>
+						<li><a href="#">特别页面</a></li>
+					</ul>
+					
+				</section>  <!--  close of footerNavCon  -->
+
+				<section id="footerLogoCon">
+					<img src="../images/icon-oasis-light.png" alt="OASIS图标">
+				</section>
+
+
+
+			</footer>
 
 
 

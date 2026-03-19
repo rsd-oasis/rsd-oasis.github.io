@@ -82,9 +82,246 @@ ul
 }
 
 
+
+
+
+
 /*   ------------------------------------------------------   */
 
 
-h2 {
-	color: red;
+
+
+
+
+
+/*   ALL PAGES    */
+
+
+
+#container
+{
+	margin: 0;
+	width: 100%;
+	background-color: #F8F6F5;
+}
+
+
+h1, h2, li, article, p, a
+{
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 400;
+	color: #0F0B08;
+}
+
+p
+{
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+
+hr
+{
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 5vh;
+	border-top: 1.5px solid #0F0B08;
+}
+
+
+
+/*   MAIN HEADER    */
+
+
+#mainHeader
+{
+	width: 100%;
+	max-height: 20vh;
+}
+
+#topHeader
+{
+	background-color: #0F0B08;
+}
+
+
+#topHeaderCon
+{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+
+#topHeaderCon p
+{
+	margin-right: 15px;
+	color: #9D705B;
+	font-size: 14px;
+}
+
+
+
+/*   MAIN NAV    */
+
+
+
+
+
+#mainNav
+{
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+
+
+
+#mainNavList, #mainNavNotes
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#mainNavList
+{
+	margin-left: 5vw;
+	justify-content: left;
+}
+
+#mainNavNotes
+{
+	margin-right: 5vw;
+	justify-content: right;
+}
+
+
+#mainNavList li
+{
+	margin-right: 20px;
+}
+
+#mainNavNotes li
+{
+	margin-left: 20px;
+}
+
+#mainNavNotesSP
+{
+	color: #F8F6F5;
+	border-bottom: none;
+	transition:none;
+}
+
+#mainNavList li a, #mainNavNotes li a
+{
+	font-family: 'Noto Serif SC', serif;
+	font-size: 18px;
+	line-height: 24px;
+	border-bottom: 1.5px solid #F8F6F5;
+	transition: all 0.5s ease-in;
+	cursor: pointer;
+}
+
+#mainNavList li a:hover, #mainNavNotes li:nth-last-child(2) a:hover
+{
+	border-bottom: 1.5px solid #0F0B08;
+}
+
+#mainNavNotesSP:hover
+{
+	border-bottom: none;
+	cursor:default;
+}
+
+
+
+#mainNavLogo img
+{
+	height: 5vh;
+}
+
+
+
+
+
+
+
+/*   FOOTER    */
+
+
+
+
+#footerNavMain
+{	
+	height: 15vh;
+	margin-left: 5vw;
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+#footerNavMain li
+{
+	margin-top: 3vh;
+	margin-right: 20px;
+}
+
+#footerNavMain li a
+{
+	font-family: 'Noto Serif SC', serif;
+	font-size: 18px;
+	border-bottom: 1.5px solid #F8F6F5;
+	transition: all 0.5s ease-in;
+	cursor: pointer;
+}
+
+#footerNavMain li a:hover
+{
+	border-bottom: 1.5px solid #0F0B08;
+}
+
+
+
+#footerLogoCon
+{
+	height: 15vh;
+	background-color: #0F0B08;
+	text-align: center;
+}
+
+
+#footerLogoCon img
+{
+	height: 10vh;
+	margin-top: 2vh;
+}
+
+
+
+
+
+
+
+
+/* --------- media queries ------------ */
+
+
+
+
+
+@media screen and (min-width: 780px) {
+
+	p
+	{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
 }
