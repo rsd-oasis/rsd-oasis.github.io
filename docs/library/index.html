@@ -6,6 +6,7 @@
 		<title>OASIS 大图书馆</title>
 		<link href="../css/reset.css" rel="stylesheet" type="text/css" >
 		<link href="../css/main.css" rel="stylesheet" type="text/css">
+		<link href="../css/library.css" rel="stylesheet" type="text/css">
 		
 	</head>
 	<body>
@@ -13,26 +14,131 @@
 		<h1 class="hidden">OASIS 大图书馆</h1>
 		<div id="container">
 
-			<h2>OASIS 大图书馆</h2>
+			<header id="mainHeader">
+				<h2 class="hidden">标题栏</h2>
 
-			<ul>
-				<li><a href="../index.html">主页</a></li>
-				<li><a href="#">大图书馆</a></li>
-				<li><a href="../profile/index.html">人物档案</a></li>
-				<li><a href="../post/index.html">报刊亭</a></li>
-			</ul>
-
-			<h2>次级目录</h2>
-
-			<ul>
-				<li><a href="geo-map/index.html">地理图志</a></li>
-				<li><a href="history/index.html">世界历史</a></li>
-				<li><a href="magic-theory/index.html">魔法理论</a></li>
-				<li><a href="encycl/index.html">百科全书</a></li>
-				<li><a href="disaster-sci/index.html">灾变学</a></li>
-			</ul>
+				<section id="topHeader">
+					<h3 class="hidden">OASIS</h3>
+					<div id="topHeaderCon">
+						<p>"黑城"历5年</p>
+						<p>宜 摒除杂念</p>
+						<p>忌 贪妄</p>
+					</div>	
+				</section> <!--- close of topHeader   --->
 
 
+				<nav id="mainNav">
+					<h3 class="hidden">Main Navigation</h3>
+					<ul id="mainNavList">
+						<li><a href="../index.html">主页</a></li>
+						<li><a href="#">大图书馆</a></li>
+						<li><a href="../profile/index.html">人物档案</a></li>
+						<li><a href="../post/index.html">报刊亭</a></li>
+					</ul>
+
+
+					<div id="mainNavLogo">
+						<img src="../images/icon-oasis-dark.png" alt="OASIS图标">
+					</div>
+					
+					
+					<ul id="mainNavNotes">
+						<li><a id="mainNavNotesSP">发现了华点</a></li>
+						<li><a href="#">关于</a></li>
+						<li><a href="#">进度</a></li>
+						<li><a href="#">特别页面</a></li>
+					</ul>
+				</nav>
+
+				<hr>
+
+			</header> <!--  close of mainHeader   -->
+
+
+
+			<section id="libHero">
+
+				<div>
+					<h2>大图书馆</h2>
+					<img src="../images/deco-rec.jpg" >
+				</div>
+				<p>THE GREAT</p>
+				<p>LIBRARY OF</p>
+				<p>OASIS</p>
+
+			</section>
+
+
+
+			<section id="libCovers">
+				<h2 class="hidden">主要藏书</h2>
+
+				<div id="libCoversCon">
+					<a href="geo-map/index.html" class="libCoversThumb">
+						<img src="../images/lib-cover-1.jpg" alt="世界地理图志">
+						<h3>世界地理图志</h3>
+					</a>
+
+					<a href="history/index.html" class="libCoversThumb">
+						<img src="../images/lib-cover-2.jpg" alt="世界历史">
+						<h3>世界历史</h3>
+					</a>
+
+					<a href="magic-theory/index.html" class="libCoversThumb">
+						<img src="../images/lib-cover-3.jpg" alt="魔法导论">
+						<h3>魔法导论</h3>
+					</a>
+
+					<a href="encycl/index.html" class="libCoversThumb">
+						<img src="../images/lib-cover-4.jpg" alt="百科图鉴">
+						<h3>百科图鉴</h3>
+					</a>
+
+					<a href="disaster-sci/index.html" class="libCoversThumb">
+						<img src="../images/lib-cover-5.jpg" alt="大陆灾变学">
+						<h3>大陆灾变学</h3>
+					</a>
+
+
+				</div>  <!--   close of libCoversCon   -->
+
+			</section>   <!--   close of libCovers   -->
+
+
+
+
+
+
+
+			<footer>
+				<h2 class="hidden">底部栏</h2>
+
+				<hr>
+
+				<section id="footerNavCon">
+					<div id="footerNavIcons">
+
+					</div>
+
+					<ul id="footerNavMain">
+						<li><a href="../index.html">主页</a></li>
+						<li><a href="#">大图书馆</a></li>
+						<li><a href="../profile/index.html">人物档案</a></li>
+						<li><a href="../post/index.html">报刊亭</a></li>
+						<li><a href="#">关于</a></li>
+						<li><a href="#">进度</a></li>
+						<li><a href="#">特别页面</a></li>
+					</ul>
+					
+				</section>  <!--  close of footerNavCon  -->
+
+				<section id="footerLogoCon">
+					<img src="../images/icon-oasis-light.png" alt="OASIS图标">
+				</section>
+
+
+
+			</footer>
 
 
 
